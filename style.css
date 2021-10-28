@@ -1,7 +1,37 @@
 body {
-    background-color: black;
+    background-color: crimson;
     text-align: center;
     margin: 0;
     padding: 0;
     margin-top: 100px;
+}
+
+#meteo1{
+    animation: meteo1 5s infinite linear;
+}
+
+@keyframes meteo1 {
+   
+ 
+    to {
+        transform: translate( 1px, -500px);
+    }
+}
+
+#meteo8 {
+    animation: meteo8 2s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes meteo8 {
+    from {
+
+        transform: rotate(0deg);
+
+    }
+    to {
+        transform: rotate(360deg);
+    }
+    
 }
